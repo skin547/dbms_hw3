@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" 
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <title>DBMS</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <form name="form" method = "POST" action = "control.php">
+
+                <div >
+                    </br>
+                    <h1>DBMS Online Book Store</h1>
+                </div>
+                <p><h5>
+                <div class="custom-control custom-radio">
+                    <input type="radio" id="customRadio1" name="table" class="custom-control-input" value="member">
+                    <label class="custom-control-label" for="customRadio1">Member Manage</label>
+                </div>
+
+                <div class="custom-control custom-radio">
+                    <input type="radio" id="customRadio2" name="table" class="custom-control-input" value="book">
+                    <label class="custom-control-label" for="customRadio2">Book Manage</label>
+                </div>
+
+                <div class="custom-control custom-radio">
+                    <input type="radio" id="customRadio3" name="table" class="custom-control-input" value="orderhistory">
+                    <label class="custom-control-label" for="customRadio3">OrderHistory Manage</label>
+                </div>
+
+                <div class="custom-control custom-radio">
+                    <input type="radio" id="customRadio4" name="table" class="custom-control-input" value="supplier">
+                    <label class="custom-control-label" for="customRadio4">Supplier Manage</label>
+                </div>
+            </h5>
+            </p>
+            </br>
+                <button class="btn btn-primary" name="function" value="connect" type="submit">Connect</button>
+                <button class="btn btn-primary" name="function" value="search" type="submit">Search</button>
+                <button class="btn btn-primary" name="function" value="insert" type="submit">Insert</button>
+                <button class="btn btn-primary" name="function" value="update" type="submit">Update</button>
+                <button class="btn btn-primary" name="function" value="delete" type="submit">Delete</button>
+                <input class = "btn" type="reset" value="Reset">
+            
+            </form>
+        
+        </div>
+
+    </body>
+
+    <footer>
+    </footer>
+
+</html>
